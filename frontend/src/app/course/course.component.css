@@ -1,0 +1,61 @@
+/* Global styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Styles for user buttons */
+.user-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.user-button:hover {
+    background-color: #5dd66d; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Styles for the list of buttons */
+li {
+    list-style: none;
+    
+}
+
+/* Styles for individual items in the list */
+li button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #3db2e0a8;
+    color: #000000;
+    border: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+li button:hover {
+    background-color:#5dd66d; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.li{
+    display: center;
+    justify-content: center;
+    list-style: none;
+    width: 250px;
+    cursor: pointer;
+    padding: 10px 20px;
+}

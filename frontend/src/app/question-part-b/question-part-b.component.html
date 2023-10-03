@@ -1,0 +1,25 @@
+<div class="container mt-4" id="page-container">
+    <div class="page-content">
+        <h1 class="text" style="align-items: center;">Part B</h1>
+        <div class="row">
+            <ng-container *ngFor="let question of ['11', '12', '13', '14', '15']; let i = index">
+                <div class="col-md-2" style="display: inline-block; vertical-align: middle;">
+                    <p class="q-text">Q{{ question }}a</p>
+                </div>
+                <div class="col-md-10" style="display: inline-block; vertical-align: middle;">
+                    <input type="number" class="form-control q-input"
+                        [min]="0" [max]="16" [(ngModel)]="questionAnswers[question].a" 
+                        (ngModelChange)="disableCorrespondingInput(question, 'a')">
+                </div>
+                <div class="col-md-2" style="display: inline-block; vertical-align: middle;">
+                    <p class="q-text">Q{{ question }}b</p>
+                </div>
+                <div class="col-md-10" style="display: inline-block; vertical-align: middle;">
+                    <input type="number" class="form-control q-input"
+                        [min]="0" [max]="16" [(ngModel)]="questionAnswers[question].b" 
+                        (ngModelChange)="disableCorrespondingInput(question, 'b')">
+                </div>
+            </ng-container>
+        </div>
+    </div>
+  </div>

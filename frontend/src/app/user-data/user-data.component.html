@@ -1,0 +1,11 @@
+<div>
+    <button (click)="saveUserData()">Save Data</button>
+    <button (click)="loadUserData()">Load Data</button>
+  </div>
+  <div *ngIf="userData.length > 0">
+    <h2>User Data:</h2>
+    <ul>
+      <li *ngFor="let item of userData">{{ item }}</li>
+    </ul>
+  </div>
+  
