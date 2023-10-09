@@ -45,6 +45,8 @@ import { CourseComponent } from './course/course.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { AlertDialogComponent } from './alert-dialog/alert-dialog.component';
 import { QuestionsPartAComponent } from './questions-part-a/questions-part-a.component';
+import { QuestionsPartBComponent } from './question-part-b/question-part-b.component';
+
 
 
 
@@ -70,7 +72,8 @@ import { QuestionsPartAComponent } from './questions-part-a/questions-part-a.com
        StudentTenthMarkComponent,
         ErpStudentMasterComponent,
          AssesmentEntryComponent,TenthMarksComponent, TwelvethStateboardMarkComponent,
-          TwelvethIcseCbseMarkComponent, MarkentryComponent, IAT1Component, IAT2Component, IAT3Component, CourseComponent, UserDataComponent, AlertDialogComponent, QuestionsPartAComponent],
+          TwelvethIcseCbseMarkComponent, MarkentryComponent, IAT1Component, IAT2Component, IAT3Component,
+           CourseComponent, UserDataComponent, AlertDialogComponent, QuestionsPartAComponent,QuestionsPartBComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,RouterModule,

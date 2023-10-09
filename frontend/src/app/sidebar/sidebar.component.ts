@@ -70,8 +70,16 @@ export class SidebarComponent implements OnInit {
     //   icon:'bx bx-briefcase-alt-2',
     //   link:'/mainpage/markentry'
     // },
+
     {
-      id: 10,
+      id:10,
+      name:'course',
+      icon:'bx bx-briefcase-alt-2',
+      link:'/mainpage/course'
+    },
+
+    {
+      id: 11,
       name: 'markenty',
       icon: 'bx bx-briefcase-alt-2',
       link: '/mainpage/markentry',
@@ -91,12 +99,12 @@ export class SidebarComponent implements OnInit {
       ]
     },
 
-    {
-      id:11,
-      name:'course',
-      icon:'bx bx-briefcase-alt-2',
-      link:'/mainpage/course'
-    },
+    // {
+    //   id:11,
+    //   name:'course',
+    //   icon:'bx bx-briefcase-alt-2',
+    //   link:'/mainpage/course'
+    // },
     
 
 
@@ -122,5 +130,15 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  showSubmenu(itemEl: HTMLElement) {
+    itemEl.classList.toggle("mark");
+  }
+  // In your component's TypeScript file
+toggleSubmenu(event: Event) {
+  const target = event.currentTarget as HTMLLIElement;
+  target.classList.toggle('clicked');
 }
+
+  
+}
+

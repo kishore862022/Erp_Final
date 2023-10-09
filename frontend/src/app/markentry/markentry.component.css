@@ -19,16 +19,28 @@
   }
   
   .submenu {
-    display: none;
+    display: inline-block;
     position: absolute;
     background-color: #333;
+    cursor: pointer;
+
   }
   
   .submenu li {
     display: block;
+    display: inline-block;
+    position: absolute;
+    background-color: #333;
+    cursor: pointer;
+    
   }
   
   .menu li:hover .submenu {
     display: block;
+    display: inline-block;
+    position: absolute;
+    background-color: #333;
+    cursor: pointer;
+    
   }
   

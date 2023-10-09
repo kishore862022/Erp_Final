@@ -25,6 +25,7 @@ import { StudentTwelvethVocMarkComponent } from './student/student-twelveth-voc-
 import { StudentarrerComponent } from './student/student-arrer/student-arrer.component';
 import { CourseComponent } from './course/course.component';
 import { QuestionsPartAComponent } from './questions-part-a/questions-part-a.component';
+import { QuestionsPartBComponent } from './question-part-b/question-part-b.component';
 
 
 const routes: Routes = [
@@ -43,6 +44,8 @@ const routes: Routes = [
   {path:'12th_vocational_mark',component:StudentTwelvethVocMarkComponent},
   {path:'student_arrer',component:StudentarrerComponent},
   {path:'questions-part-a',component:QuestionsPartAComponent},
+  {path:'questions-part-b',component:QuestionsPartBComponent},
+
 
 
  
